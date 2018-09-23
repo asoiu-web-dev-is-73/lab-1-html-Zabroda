@@ -1,0 +1,105 @@
+.header {
+	color:rgba(0, 0, 0);
+}
+
+.BAckground {
+  height: 728px;
+  background: linear-gradient(45deg, rgba(103, 0, 31, .7), rgba(34, 101, 163, .5)),
+  url(photo-8.jpg); 
+  background-size: cover;
+}
+
+.SecondBackground{
+	background-image: url(2-ndDoc.jpg);
+	background-size: cover;
+}
+
+.ThirtBackground{
+	background-image: url(iogi.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.FourtBackground{
+	background-image: url(http://mobilkoy.ru/images/mobilkoy/2016/08/1303694.gif);
+	background-size: cover;
+}
+
+.FifthBackground{
+	background-image: url(giphy.gif);
+	background-size: cover;
+}
+
+.sixthBackground{
+background-image: url(flag.jpg);
+background-size: cover;
+}
+
+.headercolor2{
+	color:green;
+	font-style:bold;
+}
+
+.fouthHead{
+	color:red;
+	position: absolute;
+	left:40%;
+}
+
+.HTML2Center{
+	position: absolute;
+	top:600px;
+	left:30%;
+}
+
+.getback{
+	position: absolute;
+	top:600px;
+	left:43%;
+}
+
+.green{
+	color:green;
+}
+
+.lists{
+	color :rgb(204, 51, 255);
+
+}
+
+.underline{
+	color:red;
+	text-decoration: underline;
+}
+
+.italic {
+font-style:italic;
+}
+
+.TABLE5{
+position: absolute;
+	top:70px;
+	
+}
+
+.flag{
+	position: absolute;
+	top:220px;
+}
+
+.button {
+  position: center;
+  font-weight: 700;
+  color: rgb(0, 153, 204);
+  text-decoration: none;
+  padding: 1em 2em calc(.8em + 3px);
+  border-radius: 5px;
+  background: rgb(241,162,14);
+  box-shadow: 0 -3px rgb(34, 101, 163) inset;
+  transition: 0.2s;
+} 
+.button:hover { background: rgb(200,55,55); }
+.button:active {
+  background: rgb(200,87,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
